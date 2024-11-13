@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos sobre Futebol</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        .video-container {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+        }
+        .description {
+            margin-top: 10px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeos sobre Futebol</h1>
+
+    <div class="video-container">
+        <h2>Vídeo 1: Título do vídeo 1</h2>
+        <iframe src="https://www.youtube.com/embed/5H4F_elvS3E" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+        <p class="description">Descrição do vídeo 1: Uma breve descrição sobre o conteúdo do vídeo e o que os espectadores podem esperar.</p>
+    </div>
+
+    <div class="video-container">
+        <h2>Vídeo 2: Título do vídeo 2</h2>
+        <iframe src="https://www.youtube.com/embed/rFkMrvmRZuw" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+        <p class="description">Descrição do vídeo 2: Uma breve descrição sobre o conteúdo do vídeo e o que os espectadores podem esperar.</p>
+    </div>
+
+</body>
+</html>
